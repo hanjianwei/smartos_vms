@@ -1,0 +1,30 @@
+{
+  "brand": "kvm",
+  "alias": "debian",
+  "hostname": "debian",
+  "resolvers": [
+    "192.168.1.1",
+    "114.114.114.114",
+    "8.8.8.8",
+    "8.8.4.4"
+  ],
+  "ram": "2048",
+  "vcpus": "1",
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "ip": "192.168.1.102",
+      "netmask": "255.255.255.0",
+      "gateway": "192.168.1.1",
+      "model": "virtio",
+      "primary": true
+    }
+  ],
+  "disks": [
+    {
+      "image_uuid": "2f56d126-20d0-11e5-9e5b-5f3ef6688aba",
+      "boot": true,
+      "model": "virtio"
+    }
+  ]
+}

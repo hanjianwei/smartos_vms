@@ -1,0 +1,17 @@
+{
+ "brand": "joyent",
+ "image_uuid": "0edf00aa-0562-11e5-b92f-879647d45790",
+ "alias": "smartos",
+ "hostname": "smartos",
+ "max_physical_memory": 2048,
+ "quota": 20,
+ "resolvers": ["192.168.1.1", "114.114.114.114", "8.8.8.8", "8.8.4.4"],
+ "nics": [
+  {
+    "nic_tag": "admin",
+    "ip": "192.168.1.101",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.1.1"
+  }
+ ]
+}
