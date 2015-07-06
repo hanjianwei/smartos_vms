@@ -1,17 +1,17 @@
 {
-  "alias": "ubuntu1404",
-  "brand": "lx",
-  "kernel_version": "3.13.0",
-  "max_physical_memory": 4096,
-  "image_uuid": "0bd891a8-1e73-11e5-acf7-7704f7a4460f",
-  "resolvers": ["192.168.1.1","114.114.114.114","8.8.8.8","8.8.4.4"],
-  "nics": [
-    {
-      "nic_tag": "admin",
-      "ip": "192.168.1.103",
-      "netmask": "255.255.255.0",
-      "gateway": "192.168.1.1",
-      "primary": true
-    }
-  ]
+  "alias": "ubuntu1404",
+  "brand": "lx",
+  "kernel_version": "3.13.0",
+  "max_physical_memory": 2048,
+  "image_uuid": "0bd891a8-1e73-11e5-acf7-7704f7a4460f",
+  "resolvers": ["192.168.1.1","114.114.114.114","8.8.8.8","8.8.4.4"],
+  "nics": [
+    {
+      "nic_tag": "admin",
+      "ip": "192.168.1.103",
+      "netmask": "255.255.255.0",
+      "gateway": "192.168.1.1",
+      "primary": true
+    }
+  ]
 }
